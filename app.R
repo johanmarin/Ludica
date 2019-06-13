@@ -2,10 +2,10 @@ library(shiny)
 library(rhandsontable)
 library(ggplot2)
 library(plotly)
+library(shinythemes)
 
 # Define UI for application that draws a histogram
-ui <- fluidPage(
-  
+ui <- fluidPage(theme = shinytheme("cosmo"),
   navbarPage("Ludica",
              tabPanel("Reglas del juego",
                       includeMarkdown("include.md")

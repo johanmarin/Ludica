@@ -6,6 +6,8 @@ Registro en shiny para lúdica Calidad
 if (!require('shiny')) install.packages('shiny')
 if (!require('ggplot2')) install.packages('ggplot2')
 if (!require('plotly')) install.packages('plotly')
+if (!require('shinythemes')) install.packages('shinythemes')
+if (!require('rhandsontable')) install.packages('rhandsontable')
 ```
 **Para Correr la Aplicación en local**
 ```r
