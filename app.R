@@ -85,9 +85,6 @@ server <- function(input, output) {
       
       # Calculating the cell value of column C using cell values in column a and b
       # 1 is added to row index because change event row and column indices starts with zero vs R index which starts with 1
-      
-      datavalues$data[xi+1,3] = datavalues$data[xi+1,1] + datavalues$data[xi+1,2] # calculate column varibale C values based on cell values in column variable a and b
-      
     }
   )
   
@@ -100,9 +97,6 @@ server <- function(input, output) {
       
       # Calculating the cell value of column C using cell values in column a and b
       # 1 is added to row index because change event row and column indices starts with zero vs R index which starts with 1
-      
-      dat$data[xi+1,3] = dat$data[xi+1,1] + dat$data[xi+1,2] # calculate column varibale C values based on cell values in column variable a and b
-      
     }
   )
   
@@ -115,9 +109,6 @@ server <- function(input, output) {
       
       # Calculating the cell value of column C using cell values in column a and b
       # 1 is added to row index because change event row and column indices starts with zero vs R index which starts with 1
-      
-      dv$data[xi+1,3] = dv$data[xi+1,1] + dv$data[xi+1,2] # calculate column varibale C values based on cell values in column variable a and b
-      
     }
   )
   ###########################################################################
