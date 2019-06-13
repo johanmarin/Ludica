@@ -20,3 +20,13 @@ Los estudiantes se dividen en grupos de tres, aproximadamente grupos de 8 estudi
 *	tijeras, se recortarán cuatro piezas para formar la casa final. (Techo, base, puerta y ventanas). La idea es que las ventanas tengan dos estaciones, por ende, dos personas cortándolas.
 *	8 pegastic o colbón, por grupo dos personas uniendo las piezas en una hoja blanca.
 
+|    **COSTOS**   |
+|-----------------|
+|ventanas: 1      |
+|puertas:  3      |
+|techo:    5      |
+|cuerpo:   4      |
+|empleado: 2      |
+
+**Nota:** cada cas se vendera en 10 und
+
