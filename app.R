@@ -47,12 +47,12 @@ server <- function(input, output) {
   df = data.frame(ventanas=ventanas, puertas=puertas, cuerpo=cuerpo,
                   techos=techos, empleados=empleados, casas=casas)
   
-  cv=-400
-  cp=-700
-  ct=-1500
-  cc=-2000
-  ce=-1000
-  ch=10000
+  cv=-1
+  cp=-3
+  ct=-5
+  cc=-4
+  ce=-2
+  ch=10
   
   ## Defining a reactivevalues object so that whenever dataset value changes it affects everywhere in the scope of every reactive function
   datavalues <- reactiveValues(data=df)
